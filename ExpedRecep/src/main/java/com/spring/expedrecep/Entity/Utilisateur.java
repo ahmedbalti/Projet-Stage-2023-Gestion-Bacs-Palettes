@@ -17,9 +17,9 @@ import java.io.Serializable;
 @ToString
 public class Utilisateur extends Audit implements Serializable {
     private static final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer IdUser;
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Integer IdUser;
 
     private String matricule ;
 

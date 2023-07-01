@@ -1,10 +1,10 @@
 package com.spring.expedrecep.Repository;
 
-import com.spring.expedrecep.Entity.Article;
 import com.spring.expedrecep.Entity.Audit;
+import com.spring.expedrecep.Entity.ExpRep;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IAuditRepository extends JpaRepository<Audit,Integer> {
+public interface IExpRep extends JpaRepository<ExpRep,Integer> {
 }

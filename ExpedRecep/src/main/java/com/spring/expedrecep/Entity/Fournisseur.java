@@ -17,9 +17,9 @@ import java.io.Serializable;
 @ToString
 public class Fournisseur extends Audit implements Serializable {
     private static final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer IdFournisseur;
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Integer IdFournisseur;
 
     private String fournisseur;
 
